@@ -1,0 +1,30 @@
+
+/* Styles for the info icon. */
+.tool-tiptext {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  min-width: 500px;
+  color: white;
+  font-size: 12px;
+  background-color: #192733;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+  display: none;
+}
+
+.hover-text:hover + .tool-tiptext {
+  visibility: visible;
+  display: block;
+}
+
+#bottom {
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#info{
+  max-width: 2rem;
+  margin-left: 800px;
+}
