@@ -1,9 +1,10 @@
-import { useState, useEffect, useCallback} from "react";
+import { useState, useEffect, useCallback } from "react";
 import randomWords from "./randomWord.json";
-import HangmanImage from "./Components /HangmanImage";
-import HangmanText from "./Components /HangmanText";
-import Keys from "./Components /Keys";
-import Help from "./Components /Help" ;
+import HangmanImage from "./Components /HangmanImage.js";
+import HangmanText from "./Components /HangmanText.js";
+import Keys from "./Components /Keys.js";
+import Help from "./Components /Help.js";
+
 
 function getWord() {
   return randomWords[Math.floor(Math.random() * randomWords.length)]
